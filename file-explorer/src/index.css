@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  padding: 6px;
+  margin: 10px;
+  background: -moz-element();
+}
+
+.file {
+  display: flex;
+  justify-items: center;
+  margin-top: 5px;
+  padding-left: 5px;
+  flex-direction: column;
+}
