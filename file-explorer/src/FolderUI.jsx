@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
 const FolderUI = ({ data }) => {
-  console.log("data ", data);
   const [expand, setExpand] = useState(false);
   if (data.isFolder) {
     return (
